@@ -1,0 +1,32 @@
+.navbar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+}
+
+.sidebar .navLink {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  margin: 15px 15px 0px 15px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  font-weight: 500;
+  color: #f8f9fa;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 20px;
+  background-color: rgb(9 173 255 / 91%);
+}
+
+.sidebar .navLink:hover {
+  background-color: #065c71;
+}
+
+.sidebar .active {
+  background-color: #62e11e;
+}

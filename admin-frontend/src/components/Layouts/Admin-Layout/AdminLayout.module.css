@@ -1,0 +1,10 @@
+.layout{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContent{
+    display: flex;
+    height:100vh;
+    margin-left: 250px;
+}
