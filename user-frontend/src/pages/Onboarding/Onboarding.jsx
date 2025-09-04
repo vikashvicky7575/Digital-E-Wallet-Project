@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Onboarding.module.css";
 import wallet  from "../../../src/assets/wallet.png";
+import { Link } from "react-router-dom";
 
 const Onboarding = () => {
   return (
@@ -18,7 +19,7 @@ const Onboarding = () => {
         </p>
 
         {/* Button */}
-        <button className={styles.startBtn}>GET STARTED </button>
+        <Link to='/signin' className={styles.startBtn}>GET STARTED </Link>
       </div>
     </div>
   );

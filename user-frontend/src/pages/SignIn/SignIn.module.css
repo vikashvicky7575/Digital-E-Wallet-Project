@@ -1,0 +1,36 @@
+* {
+  padding: var(--page-padding);
+}
+
+.arrowIcon {
+  font-size: 40px;
+}
+
+.content_Container .logoText {
+  color: var(--font-color);
+}
+
+.inputBlock .email_Input,
+.password_Input {
+  padding: 15px 10px;
+}
+
+.forget_Text {
+  color: var(--font-color);
+}
+
+.SubmitButtonBlock .buttonText {
+  background: var(--theme-color);
+  border: none;
+  padding: 15px 0px;
+  border-radius: 11px;
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
+}
+
+.signupBlock {
+  .signupText {
+    color: var(--font-color);
+  }
+}
