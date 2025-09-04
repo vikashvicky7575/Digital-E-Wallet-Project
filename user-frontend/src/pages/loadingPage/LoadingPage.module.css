@@ -1,0 +1,7 @@
+.loadingHead {
+  background: linear-gradient(to bottom, #400c7f, #250639);
+  height: 100vh;
+}
+.logoName{
+    font-size: 35px;
+} 
